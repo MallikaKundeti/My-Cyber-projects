@@ -1,8 +1,10 @@
+🧾 Personal cybersecurity mini-project focused on email header analysis and phishing triage.
+
 🔎 Summary
 
 This was a quick but fun little email-header deep dive I did using Kali Linux inside a VMware lab setup. The goal was to figure out whether a random promotional email I got was real or just a sneaky phishing attempt. 
-
-I saved the raw header, pulled it apart with grep, and then used tools like whois and dig to trace where it actually came from. From there, I checked the sender info, authentication results (SPF, DKIM, DMARC), and delivery path to see if anything seemed off.
+I saved the raw header, pulled it apart with grep, and then used tools like whois and dig to trace where it actually came from. From there, I checked the sender info, authentication results (SPF, DKIM, DMARC), and delivery path to see if anything seemed off. 
+Basically, a mini investigation to sharpen my phishing triage skills 👩🏻‍💻!
 
 🧰 Tools & Commands Used
 
@@ -72,6 +74,14 @@ Purpose	Command(s) Used
 * Indicators collected:
   mail.replit.com, replit.com, bounce.replit.com, sparkpostmail.com, 168.203.32.122
 
+|           Purpose                                |                                Command(s) Used                                                     |
+|--------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| View header file                                 | `cat header.txt` / `nano header.txt`                                                               |
+| Extract specific header fields                   | `grep -i 'from:' header.txt` / `grep -i 'spf=' header.txt` etc.                                    |
+| Domain info lookup                               | `whois replit.com`                                                                                 |
+| DNS and mail record lookups                      | `dig +short A mail.replit.com` / `dig +short A sparkpostmail.com` / `dig +short -x 168.203.32.122` |
+| Advanced validation (follow-up tests)            | `dig +short TXT replit.com`, `dig +short MX replit.com`, `dig +short TXT 20250624._domainkey.mail.replit.com`, `whois sparkpostmail.com` |
+
 🧠 Assessment
 
 Risk Level: Low ⚪
@@ -108,3 +118,5 @@ Indicators collected:
 * https://github.com/MallikaKundeti/My-Cyber-projects/blob/fd1262d7160e9c9f39c80d83c0d6117ab26aa196/Screenshot%20(696).png
 * https://github.com/MallikaKundeti/My-Cyber-projects/blob/fd1262d7160e9c9f39c80d83c0d6117ab26aa196/Screenshot%20(697).png
 * https://github.com/MallikaKundeti/My-Cyber-projects/blob/fd1262d7160e9c9f39c80d83c0d6117ab26aa196/Screenshot%20(698).png32.122
+
+🏁 Outcome: Gained practical experience in header analysis, mail authentication mechanisms, and interpreting DNS records — plus built confidence using Linux command-line tools for real-world security checks.
