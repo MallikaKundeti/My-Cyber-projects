@@ -101,7 +101,4 @@ mail.replit.com, replit.com, bounce.replit.com, sparkpostmail.com, 168.203.32.12
 
 📎 Appendix (Evidence Snippets)
 
-
-
-Indicators (from indicators.txt):
-mail.replit.com, replit.com, bounce.replit.com, sparkpostmail.com, 168.203.32.122
+* https://github.com/MallikaKundeti/My-Cyber-projects/blob/7ff0e5db91e9bc6e31caf68956997252080dcfe8/Screenshot%20(693).png
