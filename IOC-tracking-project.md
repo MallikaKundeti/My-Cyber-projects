@@ -26,7 +26,6 @@ I used the printf command to populate the CSV and then column -t to get a neat, 
 | dl-update-example.net     | domain | open intel search| 2025-11-13 | under review | Potential download lure                      |
 | cdn-assets-example.net    | domain | open intel search| 2025-11-13 | benign       | Likely static asset host                      |
 
-
 ✨ Quick Observations:
 
 Using a structured CSV makes tracking IOCs fast and repeatable.
@@ -47,11 +46,7 @@ Could also implement sorting/filtering scripts to quickly see “under review”
 
 📎 Evidence / Output:
 
-CSV created: ioc_tracker.csv
 
-Pretty tabulated view using:
-
-column -s, -t ioc_tracker.csv | less -S
 
 
 🏁 Outcome:
