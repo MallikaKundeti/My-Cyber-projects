@@ -2,7 +2,7 @@
 
 🔎 Summary
 
-In this exercise, I created a simple CSV-based IOC tracker to log domains and IPs from various sources. The goal was to practice tracking potentially suspicious activity — like phishing attempts, SSH anomalies, or suspicious domains — while keeping everything structured and easy to read.
+In this mini project, I created a simple CSV-based IOC tracker to log domains and IPs from various sources. The goal was to practice tracking potentially suspicious activity — like phishing attempts, SSH anomalies, or suspicious domains — while keeping everything structured and easy to read.
 
 I used the printf command to populate the CSV and then column -t to get a neat, tabulated view. This helps mimic how SOC analysts or security teams maintain IOC logs in a real environment.
 
@@ -28,31 +28,31 @@ I used the printf command to populate the CSV and then column -t to get a neat, 
 
 ✨ Quick Observations:
 
-Using a structured CSV makes tracking IOCs fast and repeatable.
+* Using a structured CSV makes tracking IOCs fast and repeatable.
 
-Status labels (benign, under review, blocked) help prioritize investigation.
+* Status labels (benign, under review, blocked) help prioritize investigation.
 
-Adding “Notes” provides context — crucial for understanding why an indicator is flagged.
+* Adding “Notes” provides context — crucial for understanding why an indicator is flagged.
 
-Practicing this locally with demo/training data helps build SOC-like workflows safely.
+* Practicing this locally with demo/training data helps build SOC-like workflows safely.
 
 💡 Assessment & Next Steps:
 
-This tracker is lightweight but effective for small-scale IOC monitoring.
-
-Next, I can experiment with automatic enrichment (like pulling ASN info for IPs or WHOIS data for domains) to make the tracker smarter.
-
-Could also implement sorting/filtering scripts to quickly see “under review” vs “blocked” indicators.
+* This tracker is lightweight but effective for small-scale IOC monitoring.
 
 📎 Evidence / Output:
 
-
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/a425a2c18d75c2fade980a7ec5fbd389a9178600/Screenshot%20(708).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/a425a2c18d75c2fade980a7ec5fbd389a9178600/Screenshot%20(709).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/a425a2c18d75c2fade980a7ec5fbd389a9178600/Screenshot%20(710).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/a425a2c18d75c2fade980a7ec5fbd389a9178600/Screenshot%20(711).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/a425a2c18d75c2fade980a7ec5fbd389a9178600/Screenshot%20(712).png
 
 
 🏁 Outcome:
 
-Learned how to create a clean, structured IOC tracker using bash tools.
+* Learned how to create a clean, structured IOC tracker using bash tools.
 
-Practiced categorizing and annotating indicators.
+* Practiced categorizing and annotating indicators.
 
-Ready to scale this approach for bigger threat-intel or lab exercises.
+* Ready to scale this approach for bigger threat-intel or lab exercises.
