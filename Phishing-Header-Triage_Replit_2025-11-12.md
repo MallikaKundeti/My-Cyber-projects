@@ -7,6 +7,7 @@ I did a quick analysis of an email header to check if it looked suspicious or pa
 Sender info:
 The “From” field shows Replit contact@mail.replit.com
 , and the “Return-Path” points to bounce.replit.com. Both belong to Replit’s official domains, so there’s no obvious mismatch.
+check: https://github.com/MallikaKundeti/My-Cyber-projects/blob/fba414f9e0c998b42940f7fdb41f0575edc6e309/Screenshot%20(689).png
 
 Authentication checks:
 
