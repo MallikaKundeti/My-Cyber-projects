@@ -4,7 +4,7 @@ This was a quick but fun little email-header deep dive I did using Kali Linux in
 
 I saved the raw header, pulled it apart with grep, and then used tools like whois and dig to trace where it actually came from. From there, I checked the sender info, authentication results (SPF, DKIM, DMARC), and delivery path to see if anything seemed off.
 
-🧰 Tools & Commands Used
+🧰 Tools & Commands Used 
 
 All the work was done inside a Kali terminal using simple Linux utilities:
 
