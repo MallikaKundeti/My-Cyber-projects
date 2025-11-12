@@ -51,18 +51,18 @@ Even though this was a handcrafted dataset, it mimics real-world SSH brute-force
 * Keep monitoring /var/log/auth.log for recurring failed attempts.
 
 🧰 Tools & Commands Used
-|---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-|       Purpose	                                                      |                                                  Command(s) Used                                                                    |
-|---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-|Create demo log file	                                                | cat > demo_auth.log << 'EOF' ... EOF                                                                                                |
-|Preview file contents                                                |	head -n 5 demo_auth.log / tail -n 10 demo_auth.log                                                                                  |
-|Count failed logins	                                                | grep "Failed password" demo_auth.log | wc -l                                                                                        | 
-|Count accepted logins	                                              | grep "Accepted password" demo_auth.log | wc -l                                                                                      |
-|Find attacking IPs	                                                  | grep "Failed password" demo_auth.log | awk '{print $(NF-3)}' | sort | uniq -c | sort -nr                                            |
-|Show timestamps of failures                                          |	grep "Failed password" demo_auth.log | awk '{print $1,$2,$3,$(NF-3)}'                                                               | 
+
+|       Purpose	                                                      |                                                  Command(s) Used                           
+|---------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|Create demo log file	                                                | cat > demo_auth.log << 'EOF' ... EOF                                                     |                                                                      
+|Preview file contents                                                |	head -n 5 demo_auth.log / tail -n 10 demo_auth.log                                       |                                                                              
+|Count failed logins	                                                 | grep "Failed password" demo_auth.log | wc -l                                             |                                                                            
+|Count accepted logins	                                               | grep "Accepted password" demo_auth.log | wc -l                                           |                                                                               
+|Find attacking IPs	                                                  | grep "Failed password" demo_auth.log | awk '{print $(NF-3)}' | sort | uniq -c | sort -nr |                                            
+|Show timestamps of failures                                          |	grep "Failed password" demo_auth.log | awk '{print $1,$2,$3,$(NF-3)}'                    |                                                   
 |List failed users                                                    |	grep "Failed password for" demo_auth.log | awk '{for(i=1;i<=NF;i++) if($i=="for"){print $(i+1);break}}' | sort | uniq -c | sort -nr |
-|Quick summary line                                                   |	echo -n "Fails: "; grep -c "Failed password" demo_auth.log; echo -n "Accepts: "; grep -c "Accepted password" demo_auth.log          |
-|---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+
+|Quick summary line                                                   |	echo -n "Fails: "; grep -c "Failed password" demo_auth.log; echo -n "Accepts: "; grep -c "Accepted password" demo_auth.log |      
 
 
 📎 Appendix (Evidence Snippets)
