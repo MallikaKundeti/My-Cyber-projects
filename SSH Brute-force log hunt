@@ -6,8 +6,8 @@
 
 * Since my /var/log/auth.log didn’t have real traffic, I made up a small demo file (demo_auth.log), with a few realistic login entries — both failed and successful ones.
     
-   -> Here's how I did that 👉 [View command output screenshot] ( https://github.com/MallikaKundeti/My-Cyber-projects/blob/8e899d34539d1e0d274a010f52466d81a18629c5/Screenshot%20(699).png )
-
+   -> Here's how I did that 👉 [View command output screenshot] 
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/359426b8e0ff7aa50416d73a75cb6dc1896a153d/Screenshot%20(699).png
 * From there, I used command-line tools like grep, awk etc to count failed logins, find which IPs were behind them, and see which user accounts they were trying to break into. 
 
  
