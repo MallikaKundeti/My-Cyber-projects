@@ -192,7 +192,6 @@ Even though this was a handcrafted dataset, it mimics real-world SSH brute-force
 |Find attacking IPs	                                                  | grep "Failed password" demo_auth.log | awk '{print $(NF-3)}' | sort | uniq -c | sort -nr |                                            
 |Show timestamps of failures                                          |	grep "Failed password" demo_auth.log | awk '{print $1,$2,$3,$(NF-3)}'                    |                                                   
 |List failed users                                                    |	grep "Failed password for" demo_auth.log | awk '{for(i=1;i<=NF;i++) if($i=="for"){print $(i+1);break}}' | sort | uniq -c | sort -nr |
-
 |Quick summary line                                                   |	echo -n "Fails: "; grep -c "Failed password" demo_auth.log; echo -n "Accepts: "; grep -c "Accepted password" demo_auth.log |      
  
 
