@@ -4,13 +4,14 @@ Welcome to my cybersecurity projects repository! 💻 Here you'll find practical
 My-Cyber-projects/
 │
 ├── phishing-header/
-│   ├── report.md
-│   └── screenshots/
-│       ├── header1.png
-│       ├── header2.png
+│ ├── report.md
+│ └── screenshots/
+│ ├── header1.png
+│ ├── header2.png
 │
+|
 ├── ssh-log-hunt/
-│   ├── report.md
-│   └── screenshots/
-│       ├── ssh1.png
-│       ├── ssh2.png
+│ ├── report.md
+│ └── screenshots/
+│ ├── ssh1.png
+│ ├── ssh2.png
