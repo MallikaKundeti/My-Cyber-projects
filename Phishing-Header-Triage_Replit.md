@@ -101,6 +101,7 @@ check 👉: https://github.com/MallikaKundeti/My-Cyber-projects/blob/a2ec497951e
   
 * Report suspicious messages to IT or your email provider if anything still feels off.
 
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/972e74313c98205315506abc2988f2f92b46bed2/SSH%20Brute-force%20log%20hunt
 
 Indicators collected:
 
