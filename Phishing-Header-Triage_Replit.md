@@ -130,7 +130,7 @@ Indicators collected:
 
 
 🧾 Mini SSH brute-force detection challenge using log parsing tools (grep, awk, wc)
-
+ 
 🔎 Summary
 
 * I did this mini log-analysis challenge on my Kali VM to see if I could spot traces of an SSH brute-force attempt. 
