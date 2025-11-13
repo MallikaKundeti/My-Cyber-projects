@@ -114,7 +114,6 @@ Indicators collected:
 * https://github.com/MallikaKundeti/My-Cyber-projects/blob/7ff0e5db91e9bc6e31caf68956997252080dcfe8/Screenshot%20(693).png
 * https://github.com/MallikaKundeti/My-Cyber-projects/blob/72a6f26a39cc55e0028d5b6cdf848982410152a6/Screenshot%20(694).png
 * https://github.com/MallikaKundeti/My-Cyber-projects/blob/fd1262d7160e9c9f39c80d83c0d6117ab26aa196/Screenshot%20(695).png
-* https://github.com/MallikaKundeti/My-Cyber-projects/blob/fd1262d7160e9c9f39c80d83c0d6117ab26aa196/Screenshot%20(696).png
 * https://github.com/MallikaKundeti/My-Cyber-projects/blob/fd1262d7160e9c9f39c80d83c0d6117ab26aa196/Screenshot%20(697).png
 * https://github.com/MallikaKundeti/My-Cyber-projects/blob/fd1262d7160e9c9f39c80d83c0d6117ab26aa196/Screenshot%20(698).png32.122
 
