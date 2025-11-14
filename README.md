@@ -17,13 +17,14 @@ My-Cyber-projects/
 │   ├── report.md
 │   └── screenshots/
 │
-├── nmap-basics/
+├── nmap-scan/
 │   ├── report.md
 │   └── screenshots/
 │
 ├── ioc-tracker/
 │   ├── report.md
 │   └── ioc_tracker.csv
+│   └── screenshots/
 │
 └── README.md
 ```
@@ -32,7 +33,7 @@ My-Cyber-projects/
 
 - 👉 **[phishing-header](Phishing-Header-Triage_Replit.md)**  
 - 👉 **[ssh-log-hunt](SSH-brute-force-log-hunt.md)**  
-- 👉 **[nmap-basics](Mini-Nmap-scan-Project.md)**  
+- 👉 **[nmap-scan](Mini-Nmap-scan-Project.md)**  
 - 👉 **[ioc-tracker](Ioc-tracking-project.md)**  
 
 Each folder contains:
@@ -116,5 +117,5 @@ Stay tuned! 🚀
 
 ### 🔗 Let’s Connect
 
-Feel free to explore my [LinkedIn profile](https://www.linkedin.com/in/mallika-kundeti-440557317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) to know more about my academic journey, internships, and language interests.
+Feel free to explore my [LinkedIn profile](https://www.linkedin.com/in/mallika-kundeti-440557317/) to know more about my academic journey, internships, and language interests.
 
