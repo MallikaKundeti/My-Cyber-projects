@@ -4,27 +4,36 @@ A collection of hands-on security practice exercises, log analysis notes, and sm
 
 This repository tracks my learning path as I explore cybersecurity fundamentals using real tools, CLI workflows, and small scenarios. Each project includes a short write-up, screenshots, and the commands I used — all organized to be easy to follow and build on.
 
+## 📁 Project Structure
+
 ```
 My-Cyber-projects/
 │
-├── phishing-header/ https://github.com/MallikaKundeti/My-Cyber-projects/blob/43ac0d03d084b8900befc27d6738df21da8179b5/Phishing-Header-Triage_Replit.md
-│ ├── report.md
-│ └── screenshots/
+├── phishing-header/ [Phishing Header Report](phishing-header/report.md)
+│   ├── report.md
+│   └── screenshots/
 │
 ├── ssh-log-hunt/
-│ ├── report.md
-│ └── screenshots/
+│   ├── report.md
+│   └── screenshots/
 │
 ├── nmap-basics/
-│ ├── report.md
-│ └── screenshots/
+│   ├── report.md
+│   └── screenshots/
 │
 ├── ioc-tracker/
-│ ├── report.md
-│ └── ioc_tracker.csv
+│   ├── report.md
+│   └── ioc_tracker.csv
 │
 └── README.md
 ```
+
+### 🔗 Clickable Folders
+
+- 👉 **[phishing-header](phishing-header/)**  
+- 👉 **[ssh-log-hunt](ssh-log-hunt/)**  
+- 👉 **[nmap-basics](nmap-basics/)**  
+- 👉 **[ioc-tracker](ioc-tracker/)**  
 
 Each folder contains:
 
