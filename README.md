@@ -4,7 +4,7 @@ A collection of hands-on security practice exercises, log analysis notes, and sm
 
 This repository tracks my learning path as I explore cybersecurity fundamentals using real tools, CLI workflows, and small scenarios. Each project includes a short write-up, screenshots, and the commands I used — all organized to be easy to follow and build on.
 
-My-Cyber-projects/
+My-Cyber-projects/ 
 │
 ├── phishing-header/
 │   ├── report.md
