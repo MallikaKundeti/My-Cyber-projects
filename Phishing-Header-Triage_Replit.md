@@ -1,5 +1,5 @@
 🧾 Personal cybersecurity mini-project focused on email header analysis and phishing triage.
-
+ 
 🔎 Summary
 
 This was a quick but fun little email-header deep dive I did using Kali Linux inside a VMware lab setup. The goal was to figure out whether a random promotional email I got was real or just a sneaky phishing attempt. 
