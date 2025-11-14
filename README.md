@@ -30,10 +30,10 @@ My-Cyber-projects/
 
 ### 🔗 Clickable Folders
 
-- 👉 **[phishing-header](phishing-header/)**  
-- 👉 **[ssh-log-hunt](ssh-log-hunt/)**  
-- 👉 **[nmap-basics](nmap-basics/)**  
-- 👉 **[ioc-tracker](ioc-tracker/)**  
+- 👉 **[phishing-header](Phishing-Header-Triage_Replit.md)**  
+- 👉 **[ssh-log-hunt](SSH-brute-force-log-hunt.md)**  
+- 👉 **[nmap-basics](Mini-Nmap-scan-Project.md)**  
+- 👉 **[ioc-tracker](Ioc-tracking-project.md)**  
 
 Each folder contains:
 
