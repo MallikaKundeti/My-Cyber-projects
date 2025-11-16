@@ -14,14 +14,18 @@ I wrote a Python script that reads password inputs, analyzes complexity, checks 
 
 All work was done inside a Kali terminal using Python + basic Linux utilities:
 
-Purpose|------------|	Tools / Commands Used
-Script editing	nano password_analyzer.py
-View input files	cat passwords.txt
-Analyze password fields (regex)	Python re module
-Cross-check passwords	rockyou.txt wordlist
-Run the tool	python3 password_analyzer.py
-Export results	Writes output → password_report.csv
-OS environment	Kali Linux VM (VMware Workstation)
+
+| Purpose                         | Tools / Commands Used                 |
+| ------------------------------- | ------------------------------------- |
+| Script editing                  | `nano password_analyzer.py`           |
+| View input files                | `cat passwords.txt`                   |
+| Analyze password fields (regex) | Python `re` module                    |
+| Cross-check passwords           | `rockyou.txt` wordlist                |
+| Run the tool                    | `python3 password_analyzer.py`        |
+| Export results                  | Writes output → `password_report.csv` |
+| OS environment                  | Kali Linux VM (VMware Workstation)    |
+
+🧠 Assessment
 
 Everything executed smoothly and processed the sample list instantly.
 
@@ -82,4 +86,28 @@ Structuring scripts for real-world cybersecurity use cases
 
 🚀 Future Enhancements
 
-🔧 Things I’d like to add:.
+🔧 Things I’d like to add:
+Entropy-based scoring for more accurate strength metrics
+
+GUI or simple web dashboard
+
+Multi-threading for faster breach checks
+
+Support for API-based live breach lookups
+
+Automatic strong-password suggestions
+
+📎 Appendix (Evidence)
+
+password_report.csv (generated output)
+
+passwords.txt sample input
+
+Python script: password_analyzer.py
+
+Screenshots of terminal execution and CSV generation
+(You can upload these to your GitHub repo just like your other project!)
+
+🏁 Outcome
+
+A fun and practical mini-project that strengthened my understanding of password security, Python automation, and handling real-world breach data. Plus, it’s a great foundational tool for security assessments and future blue-team projects 🔐💙.
