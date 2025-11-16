@@ -5,10 +5,12 @@
 🔎 Summary
 
 This was a hands-on password-analysis project I built using Python on a Kali Linux VM (running inside VMware). The goal was simple:
-➡️ Check how strong a list of passwords really is, and
-➡️ Verify whether any of them appear in a real leaked-password dataset (rockyou.txt).
 
-I wrote a Python script that reads password inputs, analyzes complexity, checks them against the breach list, and then exports everything into a clean CSV report. Basically a compact password-audit tool to sharpen my Python, regex, and Linux skills 🔥👩🏻‍💻.
+-> Check how strong a list of passwords really is, and
+
+-> Verify whether any of them appear in a real leaked-password dataset (rockyou.txt).
+
+I wrote a Python script that reads password inputs, analyzes complexity, checks them against the breach list, and then exports everything into a clean CSV report. Basically a compact password-audit tool to sharpen my Python, regex, and Linux skills.
 
 🧰 Tools & Technologies Used
 
@@ -48,7 +50,7 @@ Overall complexity score → Weak / Medium / Strong
 
 The script performs a lookup inside rockyou.txt, one of the most commonly referenced leaked-password lists.
 
-If a password exists in the breach list, it’s flagged as Breached: YES ⚠️.
+If a password exists in the breach list, it’s flagged as -> "Breached: YES."
 
 🗂 Output Format
 
@@ -84,29 +86,11 @@ Automating reports for security assessments
 
 Structuring scripts for real-world cybersecurity use cases
 
-🚀 Future Enhancements
-
-🔧 Things I’d like to add:
-Entropy-based scoring for more accurate strength metrics
-
-GUI or simple web dashboard
-
-Multi-threading for faster breach checks
-
-Support for API-based live breach lookups
-
-Automatic strong-password suggestions
-
 📎 Appendix (Evidence)
 
 https://github.com/MallikaKundeti/My-Cyber-projects/blob/a10beef6b87ebd81adef7ddc28f6fba2ab675d19/nano%20passwords%20.png
 https://github.com/MallikaKundeti/My-Cyber-projects/blob/a10beef6b87ebd81adef7ddc28f6fba2ab675d19/Screenshot%20(762).png
-
 https://github.com/MallikaKundeti/My-Cyber-projects/blob/a10beef6b87ebd81adef7ddc28f6fba2ab675d19/final%20output.png
-
-
- https://github.com/MallikaKundeti/My-Cyber-projects/blob/a10beef6b87ebd81adef7ddc28f6fba2ab675d19/final%20output.png
-(You can upload these to your GitHub repo just like your other project!)
 
 🏁 Outcome
 
