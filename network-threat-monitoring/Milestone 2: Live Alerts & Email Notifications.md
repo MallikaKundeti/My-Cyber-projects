@@ -97,3 +97,14 @@ Achievements – Milestone 2
 ✅ Optional email notifications successfully triggered.
 ✅ Duplicate alerts prevented per IP.
 ✅ Continuous CSV logging maintained.
+
+Evidences: 
+
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/20ca89e0f37a5f24d3b44d895d4f09744e54e19f/NTM%20M2%20%20(1).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/20ca89e0f37a5f24d3b44d895d4f09744e54e19f/NTM%20M2%20(2).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/20ca89e0f37a5f24d3b44d895d4f09744e54e19f/NTM%20M2%20(3).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/20ca89e0f37a5f24d3b44d895d4f09744e54e19f/NTM%20M2%20(4).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/20ca89e0f37a5f24d3b44d895d4f09744e54e19f/NTM%20M2%20(5).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/20ca89e0f37a5f24d3b44d895d4f09744e54e19f/NTM%20M2%20(6)%20.png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/20ca89e0f37a5f24d3b44d895d4f09744e54e19f/NTM%20M2%20%20(7).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/20ca89e0f37a5f24d3b44d895d4f09744e54e19f/NTM%20M2%20%20(8).png
