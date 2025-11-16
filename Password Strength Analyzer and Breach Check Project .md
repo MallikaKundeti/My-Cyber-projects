@@ -1,6 +1,6 @@
-🔐 Password Strength Analyzer + Breach Check (Mini Cybersecurity Project)
+🔐 Password Strength Analyzer + Breach Check 
 
-🧾 Personal cybersecurity mini-project focused on password strength evaluation and leaked-password detection.
+🧾 Personal cybersecurity project focused on password strength evaluation and leaked-password detection.
 
 🔎 Summary
 
