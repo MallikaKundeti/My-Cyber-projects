@@ -66,11 +66,11 @@ Notes (e.g., “Weak – appears in breach list”)
 
 🧠 Results & Observations
 
-Weak passwords like "qwerty" and "password123" were immediately flagged as breached ⚠️
+Weak passwords like "qwerty" and "password123" were immediately flagged as breached.
 
 Strong passwords with symbols, mixed case, and good length passed with “Strong” ratings
 
-The script processed all sample passwords in under one second ⚡
+The script processed all sample passwords in under one second.
 
 Workflow proves scalable for larger datasets
 
