@@ -99,13 +99,12 @@ Automatic strong-password suggestions
 
 📎 Appendix (Evidence)
 
-password_report.csv (generated output)
 
-passwords.txt sample input
+passwords.txt sample input : https://github.com/MallikaKundeti/My-Cyber-projects/blob/a10beef6b87ebd81adef7ddc28f6fba2ab675d19/nano%20passwords%20.png
+Python script: [password_analyzer.py ](https://github.com/MallikaKundeti/My-Cyber-projects/blob/a10beef6b87ebd81adef7ddc28f6fba2ab675d19/Screenshot%20(762).png)
 
-Python script: password_analyzer.py
 
-Screenshots of terminal execution and CSV generation
+ https://github.com/MallikaKundeti/My-Cyber-projects/blob/a10beef6b87ebd81adef7ddc28f6fba2ab675d19/final%20output.png
 (You can upload these to your GitHub repo just like your other project!)
 
 🏁 Outcome
