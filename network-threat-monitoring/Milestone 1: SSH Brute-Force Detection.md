@@ -78,8 +78,3 @@ Achievements – Milestone 1
 
 ✅ First working version of a cybersecurity tool ready for further enhancement.
 
-
-
-Runs continuously and updates CSV every 60 seconds.
-
-Key Code Snippets:
