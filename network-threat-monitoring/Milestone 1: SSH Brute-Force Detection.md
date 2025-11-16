@@ -1,4 +1,4 @@
-Network Threat Monitoring System – Milestone 1 Report
+Network Threat Monitoring System – Milestone 1 Report :
 
 Project Goal:
 Build a local network monitoring tool in Kali Linux to detect suspicious activity, specifically SSH brute-force attempts, log events, and store them for analysis.
@@ -78,3 +78,13 @@ Achievements – Milestone 1
 
 ✅ First working version of a cybersecurity tool ready for further enhancement.
 
+Evidences: 
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/ff45f60d78a391d340e32a8e7a7e6dfe8e755e0f/NTM%20M1%20(1)%20.png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/ff45f60d78a391d340e32a8e7a7e6dfe8e755e0f/NTM%20M1%20(2).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/ff45f60d78a391d340e32a8e7a7e6dfe8e755e0f/NTM%20M1%20%20(3).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/ff45f60d78a391d340e32a8e7a7e6dfe8e755e0f/NTM%20M1%20(4).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/ff45f60d78a391d340e32a8e7a7e6dfe8e755e0f/NTM%20M1%20(5).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/ff45f60d78a391d340e32a8e7a7e6dfe8e755e0f/NTM%20M1%20(6).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/ff45f60d78a391d340e32a8e7a7e6dfe8e755e0f/NTM%20M1%20%20(7).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/ff45f60d78a391d340e32a8e7a7e6dfe8e755e0f/NTM%20M1%20(8).png
+https://github.com/MallikaKundeti/My-Cyber-projects/blob/ff45f60d78a391d340e32a8e7a7e6dfe8e755e0f/NTM%20M1%20(9).png
