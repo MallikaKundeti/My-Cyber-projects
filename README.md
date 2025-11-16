@@ -5,11 +5,10 @@ A collection of hands-on security practice exercises, log analysis notes, and sm
 This repository tracks my learning path as I explore cybersecurity fundamentals using real tools, CLI workflows, and small scenarios. Each project includes a short write-up, screenshots, and the commands I used — all organized to be easy to follow and build on.
 
 ## 📁 Project Structure
-
 ```
 My-Cyber-projects/
 │
-├── phishing-header/ [Phishing Header Report](phishing-header/report.md)
+├── phishing-header/            →  [Phishing Header Report](phishing-header/report.md)
 │   ├── report.md
 │   └── screenshots/
 │
@@ -23,7 +22,14 @@ My-Cyber-projects/
 │
 ├── ioc-tracker/
 │   ├── report.md
-│   └── ioc_tracker.csv
+│   ├── ioc_tracker.csv
+│   └── screenshots/
+│
+├── password-strength-analyzer/   →  **NEW! [Password Strength + Breach Check](password-strength-analyzer/report.md)**
+│   ├── report.md
+│   ├── password_analyzer.py
+│   ├── password_report.csv
+│   ├── passwords.txt
 │   └── screenshots/
 │
 └── README.md
@@ -90,6 +96,22 @@ The table includes:
 
 Domains, IP addresses, Source of discovery, First-seen date, Status (benign / under review / blocked), Notes
 
+5. Password Strength + Breach Check (password-strength-analyzer/) 
+
+A Python-based mini-project where I evaluated password strength and checked each password against the popular rockyou.txt breach dataset.
+
+Inside the script, I analyzed:
+
+Length
+
+Character complexity (upper/lower/digits/specials)
+
+Breach presence
+
+Strength rating (Weak / Medium / Strong)
+
+Then exported results into a clean CSV (password_report.csv).
+This helped me practice Python automation, regex, Linux file handling, and breach-check workflows.
 
 🎯 Goal of This Repository
 
