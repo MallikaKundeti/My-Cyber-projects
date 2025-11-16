@@ -8,7 +8,7 @@ This repository tracks my learning path as I explore cybersecurity fundamentals 
 ```
 My-Cyber-projects/
 │
-├── phishing-header/            →  [Phishing Header Report](phishing-header/report.md)
+├── phishing-header/            
 │   ├── report.md
 │   └── screenshots/
 │
@@ -25,7 +25,7 @@ My-Cyber-projects/
 │   ├── ioc_tracker.csv
 │   └── screenshots/
 │
-├── password-strength-analyzer/   →  **NEW! [Password Strength + Breach Check](password-strength-analyzer/report.md)**
+├── password-strength-analyzer/  
 │   ├── report.md
 │   ├── password_analyzer.py
 │   ├── password_report.csv
