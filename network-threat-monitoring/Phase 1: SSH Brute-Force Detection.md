@@ -1,4 +1,4 @@
-Network Threat Monitoring System – Milestone 1 Report :
+Network Threat Monitoring System – Phase 1 Report :
 
 Project Goal:
 Build a local network monitoring tool in Kali Linux to detect suspicious activity, specifically SSH brute-force attempts, log events, and store them for analysis.
