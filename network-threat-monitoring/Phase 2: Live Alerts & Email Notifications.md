@@ -1,4 +1,4 @@
-Network Threat Monitoring System – Milestone 2 Report
+Network Threat Monitoring System – Phase 2 Report
 
 Project Goal: Enhance the network monitoring tool to provide real-time alerts for suspicious SSH activity and optional email notifications, while preventing duplicate alerts.
 
