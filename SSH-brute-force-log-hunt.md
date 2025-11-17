@@ -2,7 +2,7 @@
 
 🔎 Summary
 
-* I did this mini log-analysis challenge on my Kali VM to see if I could spot traces of an SSH brute-force attempt.
+* I did this log-analysis challenge on my Kali VM to see if I could spot traces of an SSH brute-force attempt.
 * Since my `/var/log/auth.log` didn’t have real traffic, I made a small demo file (`demo_auth.log`) with a few realistic login entries — both failed and successful ones.  
   -> Here's how I did that 👉 [View command output screenshot](https://github.com/MallikaKundeti/My-Cyber-projects/blob/e9a0369a30f629749a257d7c1be98e3f5d382bfe/Screenshot%20%28701%29.png)
 * Then I used command-line tools like `grep`, `awk`, etc. to count failed logins, find which IPs were behind them, and see which user accounts were being targeted.
