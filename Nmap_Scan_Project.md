@@ -1,4 +1,4 @@
-🕵️‍♀️ Mini Nmap Scan Practice Challenge
+🕵️‍♀️ Nmap Scan Practice Challenge
 
 🔎 Summary
 
